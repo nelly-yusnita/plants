@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- ===== FAVICON ==== -->
+	<link rel="shortcut icon" href="assets/img/logo.png" type="image/x-icon">
+
+	<!-- ===== MAIN CSS ===== -->
+	<link rel="stylesheet" href="assets/css/style.css">
+
+	<!-- ===== BOXICONS ===== -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+	<!-- ===== SWIPER CSS ===== -->
+	<link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+	<!-- ===== FANCYBOX 3 ===== -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+
+	<!-- ===== AOS ANIMATE CSS ===== -->
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+
+	<title>Plant &mdash; Gardening & Houseplants</title>
+</head>
+<body>
+	<!-- ===== HEADER ===== -->
+	<header class="header" id="header">
+		<nav class="nav container">
+			<a href="#" class="nav__logo">
+				<img src="assets/img/nav_logo.png" alt="" class="nav__logo-img">
+				<span>Plants</span>
+			</a>
+
+			<div class="nav__menu" id="nav-menu">
+				<ul class="nav__list">
+					<li class="nav__item">
+						<a href="#home" class="nav__link active-link">Home</a>
+					</li>
+					<li class="nav__item">
+						<a href="#about" class="nav__link">About</a>
+					</li>
+					<li class="nav__item">
+						<a href="#products" class="nav__link">Products</a>
+					</li>
+					<li class="nav__item">
+						<a href="#blog" class="nav__link">Blog</a>
+					</li>
+					<li class="nav__item">
+						<a href="#contact" class="nav__link">Contact</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="nav__theme">
+				<i class='bx bx-moon change-theme' id="theme-button"></i>
+			</div>
+
+			<div class="hamburger__nav" id="menu-button">
+				<span class="hamburger__top"></span>
+				<span class="hamburger__middle"></span>
+				<span class="hamburger__bottom"></span>
+			</div>
+		</nav>
+	</header>
+	<!-- ===== end header ===== -->
+
+	<!-- ===== MAIN ===== -->
+	<main class="main">
+		<!-- ===== HOME ===== -->
+		<section class="home container" id="home">
+			<div class="home__container swiper">
+				<div class="home__wrapper swiper-wrapper">
+					<!-- Slide 1 -->
+					<div class="home__slide swiper-slide">
+						<div class="home__content grid">
+							<div class="home__images" data-aos="zoom-in-left">
+								<div class="home__shape"></div>
+								<img src="assets/img/home_img1.png" alt="" class="home__img">
+							</div>
+
+							<div class="home__data" data-aos="fade-right">
+								<div class="home__subtitle">
+									<div class="home__line"></div>
+									<span>Composters For Healthy Planet</span>
+								</div>
+								<h1 class="home__title">plants for health</h1>
+								<div class="home__prices">
+									<span class="before__price">$750.00</span>
+									<span class="after__price">$350.00</span>
+								</div>
+								<a href="#" class="button home__button">Shop Now</a>
+							</div>
+						</div>
+					</div>
+
+					<!-- Slide 2 -->
+					<div class="home__slide swiper-slide">
+						<div class="home__content grid">
+							<div class="home__images">
+								<div class="home__shape"></div>
+								<img src="assets/img/home_img2.png" alt="" class="home__img home__img-2">
+							</div>
+
+							<div class="home__data">
+								<div class="home__subtitle">
+									<div class="home__line"></div>
+									<span>Bring Freshness To Your Architecture</span>
+								</div>
+								<h1 class="home__title">plant for interior</h1>
+								<div class="home__prices">
+									<span class="before__price">$750.00</span>
+									<span class="after__price">$350.00</span>
+								</div>
+								<a href="#" class="button home__button">Shop Now</a>
+							</div>
+						</div>
+					</div>
+
+					<!-- Slide 3 -->
+					<div class="home__slide swiper-slide">
+						<div class="home__content grid">
+							<div class="home__images">
+								<div class="home__shape"></div>
+								<img src="assets/img/home_img3.png" alt="" class="home__img home__img-3">
+							</div>
+
+							<div class="home__data">
+								<div class="home__subtitle">
+									<div class="home__line"></div>
+									<span>Composters For Healthy Planet</span>
+								</div>
+								<h1 class="home__title">plant by type</h1>
+								<div class="home__prices">
+									<span class="before__price">$750.00</span>
+									<span class="after__price">$350.00</span>
+								</div>
+								<a href="#" class="button home__button">Shop Now</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Pagination -->
+				<div class="swiper-pagination"></div>
+			</div>
+
+			<div class="home__social" data-aos="fade-left">
+				<span class="home__social-follow">Follow Us</span>
+
+				<div class="home__social-links">
+					<a href="https://www.facebook.com/" target="_blank" class="home__social-link">
+						<i class='bx bxl-facebook'></i>
+					</a>
+					<a href="https://www.instagram.com/" target="_blank" class="home__social-link">
+						<i class='bx bxl-instagram'></i>
+					</a>
+					<a href="https://twitter.com/" target="_blank" class="home__social-link">
+						<i class='bx bxl-twitter' ></i>
+					</a>
+				</div>
+			</div>
+		</section>
+		<!-- ===== end home ===== -->
+
+		<!-- ===== FITUR ===== -->
+		<section class="fitur container">
+			<div class="fitur__container grid">
+				<div class="fitur__box">
+					<img src="assets/img/fitur_icon1.png" alt="" class="fitur__icon">
+					<h3 class="fitur__title">FREE SHIPPING</h3>
+					<span class="fitur__description">ON ORDER OVER $500</span>
+				</div>
+				<div class="fitur__box">
+					<img src="assets/img/fitur_icon2.png" alt="" class="fitur__icon">
+					<h3 class="fitur__title">SUPPORT</h3>
+					<span class="fitur__description">LIFE TIME SUPPORT 24/7</span>
+				</div>
+				<div class="fitur__box">
+					<img src="assets/img/fitur_icon3.png" alt="" class="fitur__icon">
+					<h3 class="fitur__title">HELP PARTNER</h3>
+					<span class="fitur__description">HELP ALL ASPECTS</span>
+				</div>
+				<div class="fitur__box">
+					<img src="assets/img/fitur_icon4.png" alt="" class="fitur__icon">
+					<h3 class="fitur__title">CONTACT WITH US</h3>
+					<span class="fitur__description">CONTACT WITH US</span>
+				</div>
+			</div>
+		</section>
+		<!-- ===== end fitur ===== -->
+
+		<!-- ===== ABOUT ==== -->
+		<section class="about section container" id="about">
+			<div class="about__container grid">
+				<img src="assets/img/about_img.png" alt="" class="about__img" data-aos="fade-right">
+
+				<div class="about__data" data-aos="fade-left">
+					<h2 class="section__title">Who we really are & <br> why choose us</h2>
+					<p class="about__description">We have over 4000+ unbiased reviews and our customers trust our plant process and delivery service every time</p>
+
+					<div class="about__details grid">
+						<p class="about__details-description">
+							<i class='bx bxs-message-square-check about__details-icon'></i>
+							We always deliver on time.
+						</p>
+						<p class="about__details-description">
+							<i class='bx bxs-message-square-check about__details-icon'></i>
+							We give you guides to protect and care for your plants.
+						</p>
+						<p class="about__details-description">
+							<i class='bx bxs-message-square-check about__details-icon'></i>
+							We always come over for a check-up after sale.
+						</p>
+						<p class="about__details-description">
+							<i class='bx bxs-message-square-check about__details-icon'></i>
+							100% money back guaranteed.
+						</p>
+					</div>
+
+					<a href="#" class="button">Shop Now</a>
+				</div>
+			</div>
+		</section>
+		<!-- ===== end about ===== -->
+
+		<!-- ===== PRODUCTS ===== -->
+		<section class="product section container" id="products">
+			<h2 class="section__title section__title-center product__section-title">Lastest Products</h2>
+
+			<div class="product__container grid">
+				<!-- 1 -->
+				<div class="product__card">
+					<div class="product__tag">-31%</div>
+					<div class="product__images">
+						<div class="product__circle"></div>
+						<img src="assets/img/product1.png" alt="" class="product__img">
+					</div>
+
+					<div class="product__data">
+						<h3 class="product__title">House Shape Close</h3>
+						<div class="product__prices">
+							<span class="product__price">$26.00</span>
+							<span class="product__discount">$38.00</span>
+						</div>
+						<button class="button--flex shop__button">
+							<i class='bx bx-shopping-bag shop__icon'></i>
+						</button>
+					</div>
+				</div>
+				
+				<!-- 2 -->
+				<div class="product__card">
+					<div class="product__tag">-27%</div>
+					<div class="product__images">
+						<div class="product__circle"></div>
+						<img src="assets/img/product2.png" alt="" class="product__img">
+					</div>
+
+					<div class="product__data">
+						<h3 class="product__title">House Shape Close</h3>
+						<div class="product__prices">
+							<span class="product__price">$31.00</span>
+							<span class="product__discount">$43.00</span>
+						</div>
+						<button class="button--flex shop__button">
+							<i class='bx bx-shopping-bag shop__icon'></i>
+						</button>
+					</div>
+				</div>
+
+				<!-- 3 -->
+				<div class="product__card">
+					<div class="product__tag product__tag-new">New</div>
+					<div class="product__images">
+						<div class="product__circle"></div>
+						<img src="assets/img/product3.png" alt="" class="product__img">
+					</div>
+
+					<div class="product__data">
+						<h3 class="product__title">House Shape Close</h3>
+						<span class="product__price">$46.00</span>
+						<button class="button--flex shop__button">
+							<i class='bx bx-shopping-bag shop__icon'></i>
+						</button>
+					</div>
+				</div>
+
+				<!-- 4 -->
+				<div class="product__card">
+					<div class="product__tag">-42%</div>
+					<div class="product__images">
+						<div class="product__circle"></div>
+						<img src="assets/img/product4.png" alt="" class="product__img">
+					</div>
+
+					<div class="product__data">
+						<h3 class="product__title">House Shape Close</h3>
+						<div class="product__prices">
+							<span class="product__price">$15.00</span>
+							<span class="product__discount">$26.00</span>
+						</div>
+						<button class="button--flex shop__button">
+							<i class='bx bx-shopping-bag shop__icon'></i>
+						</button>
+					</div>
+				</div>
+
+				<!-- 5 -->
+				<div class="product__card">
+					<div class="product__tag">-6%</div>
+					<div class="product__images">
+						<div class="product__circle"></div>
+						<img src="assets/img/product5.png" alt="" class="product__img">
+					</div>
+
+					<div class="product__data">
+						<h3 class="product__title">House Shape Close</h3>
+						<div class="product__prices">
+							<span class="product__price">$55.00</span>
+							<span class="product__discount">$59.00</span>
+						</div>
+						<button class="button--flex shop__button">
+							<i class='bx bx-shopping-bag shop__icon'></i>
+						</button>
+					</div>
+				</div>
+
+				<!-- 6 -->
+				<div class="product__card">
+					<div class="product__tag product__tag-new">New</div>
+					<div class="product__images">
+						<div class="product__circle"></div>
+						<img src="assets/img/product6.png" alt="" class="product__img">
+					</div>
+
+					<div class="product__data">
+						<h3 class="product__title">House Shape Close</h3>
+						<span class="product__price">$36.00</span>
+						<button class="button--flex shop__button">
+							<i class='bx bx-shopping-bag shop__icon'></i>
+						</button>
+					</div>
+				</div>
+			</div>
+
+			<a href="#" class="button product__button" data-aos="fade-down">All Products</a>
+		</section>
+		<!-- ===== end products ===== -->
+
+		<!-- ===== BANNER ==== -->
+		<section class="banner">
+			<div class="banner__container container" data-aos="fade-right">
+				<span class="banner__subtitle">Highlight items</span>
+				<h2 class="banner__title">Deals of the Day</h2>
+
+				<div class="countdown__timer grid">
+					<div class="timer__box">
+						<div class="timer__number" id="days">0</div>
+						<span class="timer__description">DAYS</span>
+					</div>
+					<div class="timer__box">
+						<div class="timer__number" id="hours">0</div>
+						<span class="timer__description">HOURS</span>
+					</div>
+					<div class="timer__box">
+						<div class="timer__number" id="minutes">0</div>
+						<span class="timer__description">MINUTES</span>
+					</div>
+					<div class="timer__box">
+						<div class="timer__number" id="seconds">0</div>
+						<span class="timer__description">SECONDS</span>
+					</div>
+				</div>
+				<h4 id="timer-stop"></h4>
+				<a href="#" class="button banner__button">Shop Now</a>
+			</div>
+		</section>
+		<!-- ===== end banner ===== -->
+
+		<!-- ===== BLOG ==== -->
+		<section class="blog section container" id="blog">
+			<h2 class="section__title">Fresh news<br>from our blog</h2>
+
+			<div class="blog__container swiper" data-aos="fade-down">
+				<div class="swiper-wrapper">
+					<!-- 1 -->
+					<div class="swiper-slide">
+						<div class="blog__content">
+							<img src="assets/img/blog_img1.png" alt="" class="blog__img">
+							<span class="blog__subtitle">DEC 10, 2022 | PLANTS</span>
+							<h3 class="blog__title">We are ready to make your life more beautiful.</h3>
+							<a href="#" class="button--link blog__button">READ MORE</a>
+						</div>
+					</div>
+
+					<!-- 2 -->
+					<div class="swiper-slide">
+						<div class="blog__content">
+							<img src="assets/img/blog_img2.png" alt="" class="blog__img">
+							<span class="blog__subtitle">DEC 10, 2022 | FLORARIUM</span>
+							<h3 class="blog__title">This combination makes them perfect!</h3>
+							<a href="#" class="button--link blog__button">READ MORE</a>
+						</div>
+					</div>
+
+					<!-- 3 -->
+					<div class="swiper-slide">
+						<div class="blog__content">
+							<img src="assets/img/blog_img3.png" alt="" class="blog__img">
+							<span class="blog__subtitle">DEC 09, 2022</span>
+							<h3 class="blog__title">Turning your dreams into masterpieces</h3>
+							<a href="#" class="button--link blog__button">READ MORE</a>
+						</div>
+					</div>
+
+					<!-- 4 -->
+					<div class="swiper-slide">
+						<div class="blog__content">
+							<img src="assets/img/blog_img4.png" alt="" class="blog__img">
+							<span class="blog__subtitle">DEC 09, 2022</span>
+							<h3 class="blog__title">We are ready to make your life more beautiful</h3>
+							<a href="#" class="button--link blog__button">READ MORE</a>
+						</div>
+					</div>
+
+					<!-- 5 -->
+					<div class="swiper-slide">
+						<div class="blog__content">
+							<img src="assets/img/blog_img5.png" alt="" class="blog__img">
+							<span class="blog__subtitle">DEC 09, 2022</span>
+							<h3 class="blog__title">Yeah, our nature is unbelievable!</h3>
+							<a href="#" class="button--link blog__button">READ MORE</a>
+						</div>
+					</div>
+				</div>
+
+				<!-- Navigation -->
+				<div class="swiper-button-next">
+					<i class='bx bx-chevron-right'></i>
+				</div>
+
+				<div class="swiper-button-prev">
+					<i class='bx bx-chevron-left'></i>
+				</div>
+
+				<!-- Pagination -->
+				<div class="swiper-pagination"></div>
+			</div>
+		</section>
+		<!-- ===== end blog ===== -->
+
+		<!-- ===== GALLERY ===== -->
+		<section class="gallery section container">
+			<div class="gallery__container" data-aos="fade-down">
+				<div class="grid__item">
+					<a data-fancybox="gallery" href="assets/img/gallery1.jpg"><img src="assets/img/gallery1.jpg"></a>
+				</div>
+				<div class="grid__item">
+					<a data-fancybox="gallery" href="assets/img/gallery2.jpg"><img src="assets/img/gallery2.jpg"></a>
+				</div>
+				<div class="grid__item">
+					<a data-fancybox="gallery" href="assets/img/gallery3.jpg"><img src="assets/img/gallery3.jpg"></a>
+				</div>
+				<div class="grid__item">
+					<a data-fancybox="gallery" href="assets/img/gallery4.jpg"><img src="assets/img/gallery4.jpg"></a>
+				</div>
+				<div class="grid__item">
+					<a data-fancybox="gallery" href="assets/img/gallery5.jpg"><img src="assets/img/gallery5.jpg"></a>
+				</div>
+				<div class="grid__item">
+					<a data-fancybox="gallery" href="assets/img/gallery6.jpg"><img src="assets/img/gallery6.jpg"></a>
+				</div>
+			</div>
+		</section>
+		<!-- ===== end gallery ===== -->
+
+		<!-- ===== CONTACT ===== -->
+		<section class="contact section container" id="contact">
+			<div class="contact__container grid">
+				<div class="contact__box">
+					<h2 class="section__title">Reach out to us today <br> via any of the given <br> information</h2>
+					<div class="contact__data grid" data-aos="fade-down">
+						<div class="contact__information">
+							<h3 class="contact__subtitle">Call us for instant support</h3>
+							<span class="contact__description">
+								<i class='bx bx-phone contact__icon'></i>+999 888 777
+							</span>
+						</div>
+
+						<div class="contact__information">
+							<h3 class="contact__subtitle">Write us by mail</h3>
+							<span class="contact__description">
+								<i class='bx bx-envelope contact__icon'></i>user@email.com
+							</span>
+						</div>
+					</div>
+				</div>
+
+				<form action="" class="contact__form" data-aos="fade-down">
+					<div class="contact__inputs grid">
+						<div class="contact__content">
+							<input type="email" placeholder=" " class="contact__input">
+							<label for="" class="contact__label">Email</label>
+						</div>
+						<div class="contact__content">
+							<input type="text" placeholder=" " class="contact__input">
+							<label for="" class="contact__label">Subject</label>
+						</div>
+						<div class="contact__content contact__area">
+							<textarea name="message" placeholder=" " class="contact__input"></textarea>
+							<label for="" class="contact__label">Message</label>
+						</div>
+					</div>
+
+					<button class="button">Send Message</button>
+				</form>
+			</div>
+		</section>
+		<!-- ===== end contact ===== -->
+	</main>
+	<!-- ===== end main ===== -->
+
+	<!-- ===== FOOTER ===== -->
+	<footer class="footer section">
+		<div class="footer__container container grid">
+			<div class="footer__content">
+				<a href="#" class="footer__logo">
+					<img src="assets/img/footer_logo.png" alt="">
+					<span>Plants</span>
+				</a>
+
+				<h3 class="footer__title">Subscribe to our newsletter<br>to stay update</h3>
+				<div class="footer__subscribe">
+					<input type="email" placeholder="Enter your email" class="footer__input">
+					<button class="button footer__button">Subscribe</button>
+				</div>
+			</div>
+
+			<div class="footer__content">
+				<h3 class="footer__title">Our Address</h3>
+				<ul class="footer__data">
+					<li class="footer__information">Jl. Tomat (Ismud) No.3</li>
+					<li class="footer__information">Medan - Sumut</li>
+					<li class="footer__information">20153</li>
+				</ul>
+			</div>
+
+			<div class="footer__content">
+				<h3 class="footer__title">Contact Us</h3>
+				<ul class="footer__data grid">
+					<li class="footer__information">+999 888 777</li>
+
+					<div class="footer__social">
+						<a href="https://www.facebook.com/" class="footer__social-link">
+							<i class='bx bxl-facebook'></i>
+						</a>
+						<a href="https://www.instagram.com/" class="footer__social-link">
+							<i class='bx bxl-instagram'></i>
+						</a>
+						<a href="https://twitter.com/" class="footer__social-link">
+							<i class='bx bxl-twitter' ></i>
+						</a>
+					</div>
+				</ul>
+			</div>
+
+			<div class="footer__content">
+				<h3 class="footer__title">We accept all credit cards</h3>
+				<div class="footer__cards">
+					<img src="assets/img/card1.png" alt="" class="footer__card">
+					<img src="assets/img/card2.png" alt="" class="footer__card">
+					<img src="assets/img/card3.png" alt="" class="footer__card">
+					<img src="assets/img/card4.png" alt="" class="footer__card">
+				</div>
+			</div>
+		</div>
+
+		<p class="footer__copy">COPYRIGHTS &#169;2022 - <a href="https://nelly-yusnita.github.io/portfolio/" class="footer__portfolio-link" target="_blank">Nelly Yusnita</a></p>
+	</footer>
+	<!-- ===== end footer ===== -->
+
+	<!-- ===== SCROLL UP ===== -->
+	<a href="#" class="scrollup" id="scroll-up">
+		<i class='bx bx-up-arrow-alt scrollup__icon'></i> 
+	</a>
+	<!-- ===== end scroll up ===== -->
+
+	<!-- ===== SWIPER JS ===== -->
+	<script src="assets/js/swiper-bundle.min.js"></script>
+
+	<!-- ====== FANCYBOX 3 ===== -->
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+	<!-- ===== AOS ANIMATE JS ===== -->
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+	<!-- ===== MAIN JS ===== -->
+	<script src="assets/js/script.js"></script>
+</body>
+</html>
